@@ -1,0 +1,67 @@
+# ==============================
+# Secrets and Credentials
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+aws-credentials
+
+# ==============================
+# AWS Local Configuration
+# ==============================
+.aws/
+
+# ==============================
+# Snowflake Configuration
+# ==============================
+connections.toml
+config.toml
+
+# ==============================
+# Python (if used)
+# ==============================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and Editor Files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+tmp/
+temp/
+
+# ==============================
+# Generated Data and Exports
+# ==============================
+*.csv
+*.parquet
+*.xlsx
+
+# ==============================
+# Keep Project Sample Data
+# ==============================
+!data/samples/*.json
+!data/samples/README.md
